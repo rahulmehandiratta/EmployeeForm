@@ -1,38 +1,132 @@
+/* App.css */
+
+/* Styling for the App container */
 .App {
-  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling for the form rows */
+.form-row {
+  margin-bottom: 10px;
+  width: 100px;
+}
+.firstname {
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lastname {
+  margin-top: -54px;
+  margin-left: 400px;
+  width: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.email {
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 300px;
+}
+.dateofbirth {
+  margin-top: -54px;
+  margin-left: 400px;
+  width: 300px;
+}
+.street1 {
+  margin-top: 0px;
+  margin-left: 5px;
+  width: 300px;
+}
+.street2 {
+  margin-top: -54px;
+  margin-left: 400px;
+  width: 300px;
+}
+.street3 {
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 300px;
+}
+.street4 {
+  margin-top: -50px;
+  margin-left: 400px;
+  width: 300px;
+}
+.checkbox {
+  margin-top: 0px;
+  margin-left: -390px;
+}
+.checkbox2 {
+  margin-top: -22px;
+  margin-left: 30px;
+}
+
+.filename {
+  margin-top: 0px;
+  margin-left: 5px;
+  width: 200px;
+}
+
+.type {
+  margin-top: -54px;
+  margin-left: 250px;
+  width: 200px; 
+}
+
+.upload {
+  margin-top: -54px;
+  margin-left: 500px;
+  width: 200px;
+}
+.submit{
+  background-color: dimgrey;
+  font-size: large;
+  margin-left: 255px;
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+}
+
+/* Styling for the h3 headings (Residential Address and Permanent Address) */
+h3 {
+  margin-top: 20px;
+}
+
+/* Styling for the "Same as Residential" checkbox */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Styling for the Upload Document section */
+h2 {
+  margin-top: 20px;
+}
+
+/* Styling for the form fields */
+label {
+  font-weight: bold;
+  display: block;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: #45a049;
 }
