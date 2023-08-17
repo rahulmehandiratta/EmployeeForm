@@ -54,19 +54,19 @@
 .submit {
   background-color: dimgrey;
   font-size: large;
-  margin-left: 255px;
+  margin-left: 300px;
   margin-top: 20px;
-  height: 50px;
+  height: 40px;
   width: 150px;
 }
 
-.exp {
+.addexp {
   background-color: dimgrey;
   font-size: large;
-  margin-left: 100px;
-  margin-top: 20px;
-  height: 70px;
-  width: 150px;
+  margin-left: 0px;
+  margin-top: 50px;
+  height: 40px;
+  width: 250px;
 }
 
 /* Styling for the h3 headings (Residential Address and Permanent Address) */
@@ -111,10 +111,15 @@ button:hover {
   background-color: #45a049;
 }
 
-.experience{
-padding-top: 20px;
+.experience {
+  margin-top: 5px;
 }
+
 .workexp {
-  margin-top: 10px;
-  width: 400px;
+  width: 200px;
+  padding: 10px;
+}
+.delbutton {
+  margin: 10px;
+  width: 100px;
 }
