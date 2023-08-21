@@ -115,11 +115,61 @@ button:hover {
   margin-top: 5px;
 }
 
-.workexp {
+.companyname {
+  width: 200px;
+  padding: 10px;
+}
+.degination2 {
+  width: 200px;
+  padding: 10px;
+}
+.timeperiod {
   width: 200px;
   padding: 10px;
 }
 .delbutton {
   margin: 10px;
   width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .number,.designation, .id, .gender {
+    margin-top: 10px;
+  margin-left: 5px;
+  width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .degination2 {
+  margin-top: 100px;
+  margin-left: -322px;
+  width: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .companyname {
+  margin-left: -10px;
+  width: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .timeperiod {
+  margin-top: 200px;
+  margin-left: -325px;
+  width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .submit {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .addexp {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
 }

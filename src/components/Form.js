@@ -79,7 +79,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div   className="App">
       <h1>Employee Registration Form</h1>
       <form onSubmit={handleSubmit} className="registration-form">
         <div className="name">
@@ -184,7 +184,7 @@ function App() {
                 <tr key={index}>
                   <td>
                     <input
-                      className="workexp"
+                      className="companyname"
                       type="text"
                       value={workExp.companyName}
                       onChange={(e) =>
@@ -199,7 +199,7 @@ function App() {
                   </td>
                   <td>
                     <input
-                      className="workexp"
+                      className="degination2"
                       type="text"
                       value={workExp.designation}
                       onChange={(e) =>
@@ -214,7 +214,7 @@ function App() {
                   </td>
                   <td>
                     <input
-                      className="workexp"
+                      className="timeperiod"
                       type="text"
                       value={workExp.timePeriod}
                       onChange={(e) =>
