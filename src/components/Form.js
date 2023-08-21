@@ -73,7 +73,7 @@ function App() {
 
       alert("Employee Registration successful!");
     } catch (error) {
-      alert("Employee Registration failed.");
+      alert("Employee Registration failed. fill all the details carefully",);
     }
   };
 
@@ -96,7 +96,7 @@ function App() {
         <div className="number">
           <label>Employee mobile no:</label>
           <input
-            type="number"
+            type="mobile"
             name="number"
             value={formData.number}
             onChange={handleInputChange}
